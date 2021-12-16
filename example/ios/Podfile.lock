@@ -1,0 +1,49 @@
+PODS:
+  - Flutter (1.0.0)
+  - um_share_plugin (0.0.1):
+    - Flutter
+    - UMCCommon
+    - UMCShare/Social/ReducedQQ
+    - UMCShare/UI
+  - UMAPM (1.5.5)
+  - UMCCommon (7.3.5):
+    - UMAPM
+    - UMDevice
+  - UMCShare/Core (6.10.2):
+    - UMCCommon
+  - UMCShare/Social/ReducedQQ (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/UI (6.10.2):
+    - UMCCommon
+    - UMCShare/Core
+  - UMDevice (2.1.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - um_share_plugin (from `.symlinks/plugins/um_share_plugin/ios`)
+
+SPEC REPOS:
+  trunk:
+    - UMAPM
+    - UMCCommon
+    - UMCShare
+    - UMDevice
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  um_share_plugin:
+    :path: ".symlinks/plugins/um_share_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  um_share_plugin: 57d0d4bd1953e372fa71ad2ef7186cb183cda11c
+  UMAPM: 1ab13287a2b05c1d491009321270daddf5659a74
+  UMCCommon: 3c535e9e3958f72df075cc6fe4776fb5e403c8bc
+  UMCShare: e14e1399673fa361cddbde3a05b3743e10f673f7
+  UMDevice: 04948a92184e8d25f1369b635dff5490c1f063e0
+
+PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
+
+COCOAPODS: 1.11.2

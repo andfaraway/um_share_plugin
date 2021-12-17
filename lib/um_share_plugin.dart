@@ -71,16 +71,6 @@ class UMShareUserInfo {
   final String? unionGender;
   final Map? originalResponse;
   final String? error;
-
-// [mdic setValue:resp.uid forKey:@"uid"];
-// [mdic setValue:resp.openid forKey:@"openid"];
-// [mdic setValue:resp.accessToken forKey:@"accessToken"];
-// [mdic setValue:resp.refreshToken forKey:@"refreshToken"];
-// [mdic setValue:[NSString stringWithFormat:@"%@",resp.expiration] forKey:@"expiration"];
-// [mdic setValue:resp.name forKey:@"name"];
-// [mdic setValue:resp.iconurl forKey:@"iconurl"];
-// [mdic setValue:resp.unionGender forKey:@"unionGender"];
-// [mdic setValue:resp.originalResponse forKey:@"originalResponse"];
 }
 
 const UMSocialPlatformType_UnKnown = -2;

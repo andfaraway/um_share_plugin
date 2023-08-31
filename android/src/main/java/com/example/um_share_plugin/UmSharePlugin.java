@@ -27,7 +27,7 @@ public class UmSharePlugin implements FlutterPlugin, MethodCallHandler {
     if (call.method.equals("getPlatformVersion")) {
       result.success("Android " + android.os.Build.VERSION.RELEASE);
     } else {
-      result.notImplemented();
+      result.success("");
     }
   }
 

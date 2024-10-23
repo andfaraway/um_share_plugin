@@ -1,10 +1,10 @@
 name: um_share_plugin
-description: A new flutter plugin project.
-version: 0.0.2
-homepage: um_share_plugin
+description: 集成友盟第三方登录插件.
+version: 0.0.3
+homepage: https://github.com/andfaraway/um_share_plugin
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
   flutter: ">=1.20.0"
 
 dependencies:
